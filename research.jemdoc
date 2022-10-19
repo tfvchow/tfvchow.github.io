@@ -1,6 +1,10 @@
 # jemdoc: menu{MENU}{link.html}
 == Research
 
+=== Research interests
+- Methods: Distributionally robust optimization, integer programming, deep learning
+- Applications: Healthcare and operations management, location problems, public transit
+
 === Grants received
 - PI, "[/\#tram A fair simulation-optimization framework for disruption management in public transit]"
 	-- Start-up Fund for RAPs under the Strategic Hiring Scheme, [https://www.polyu.edu.hk PolyU].
