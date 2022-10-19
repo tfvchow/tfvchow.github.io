@@ -14,12 +14,12 @@ Unlike buses and ferries, rail transport is less flexible when there are obstruc
 
 ~~~
 {}{img_left}{./derail.jpeg}{alt text}{221}{250}{./derail.jpeg}
-*Objectives*
+*Objectives:*
 - Extend the simulation framework in Lai & Leung (2018) by including network disruptions via a stochastic process.
 - Build an optimization model addressing the fairness issue in working overtime, especially after network interruptions.
 - Devise a scheme for calibrating the simulation parameters with the empirical data which have been affected by bunching.
 
-*Reference(s)*:
+*Reference(s):*
 - David S. W. Lai, Janny M. Y. Leung, "[https://doi.org/10.1080/21680566.2017.1358678 Real-time rescheduling and disruption management for public transit]", /Transportmetrica B: Transport Dynamics/, 6(1), 17-33, 2018.
 ~~~
 
