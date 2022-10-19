@@ -2,12 +2,13 @@
 == Research
 
 === Grants received
-- PI, "A fair simulation-optimization framework for disruption management in public transit"
+- PI, "[/\#tram A fair simulation-optimization framework for disruption management in public transit]"
 	-- Start-up Fund for RAPs under the Strategic Hiring Scheme, [https://www.polyu.edu.hk PolyU].
 	-- HKD 250,000, October 2022 - April 2024, P0043472.
-	
+		
 === Projects
 
+{{<a id="tram"></a>}}
 *A fair simulation-optimization framework for disruption management in public transit*\n(Funded by PolyU)
 
 Unlike buses and ferries, rail transport is less flexible when there are obstructions. Lai & Leung (2018) have proposed various mathematical models which help mitigate unfavorable events occurred throughout the operation by revising the schedules in real-time. The goal of this study is to extend their framework for more realistic simulations.
