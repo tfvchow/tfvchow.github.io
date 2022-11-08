@@ -2,3 +2,4 @@
 ./jemdoc publications
 ./jemdoc teaching
 ./jemdoc research 
+./jemdoc activities
