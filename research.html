@@ -6,6 +6,15 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <title>Research</title>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -15,7 +24,8 @@
 <div class="menu-item"><a href="index.html">Home</a></div>
 <div class="menu-item"><a href="research.html">Research</a></div>
 <div class="menu-item"><a href="publications.html">Publications</a></div>
-<div class="menu-item"><a href="activities.html">Professional&nbsp;Activities</a></div>
+<div class="menu-item"><a href="talks.html">Talks</a></div>
+<div class="menu-item"><a href="service.html">Service</a></div>
 <div class="menu-item"><a href="teaching.html">Teaching</a></div>
 <div class="menu-item"><a href="CV_Chow.pdf">CV</a></div>
 </td>
@@ -76,14 +86,69 @@
 </li>
 </ul>
 </td></tr></table>
-<div class="infoblock">
-<div class="blockcontent">
-<p>An opening for a research assistant is available. Click <a href="./Poster_221028004.pdf" target=&ldquo;blank&rdquo;>here</a> for the poster and <a href="./Job_promo_221028004.pdf" target=&ldquo;blank&rdquo;>here</a> for more information. 
+<p><br /> <br />
 </p>
-</div></div>
+<p><a id="envelope"></a>
+<b>Target-Oriented Distributionally Robust Optimization and Its Applications to Surgery Allocation</b><br />(PhD Project)
+</p>
+<p>Generally speaking, <a href="https://doi.org/10.1287/mnsc.6.1.73" target=&ldquo;blank&rdquo;>chance-constrained programming</a> seeks an optimal solution in which the requirement(s), convoluted by uncertainties arising from operations, is (are) satisfied with a certain probability. However, there are several issues when using this approach.
+</p>
+<ul>
+<li><p>Once a chance-constraint is violated, there is no limit on how worse it can be. (See <a href="https://www.risk.net/risk-magazine/technical-paper/1506669/var-versus-expected-shortfall" target=&ldquo;blank&rdquo;>here</a> for details.)
+</p>
+</li>
+<li><p>To avoid the first problem, a long list of chance-constraints can be used but the process is not scalable.
+</p>
+</li>
+<li><p>Most importantly, chance-constrained problems are difficult to optimize in general.
+</p>
+</li>
+</ul>
+<p>This project, among other things, is to address the above problems by introducing an efficient solution method. Notice that this can be easily extended to distributionally robust problems. First, denote the decision variables and the feasible set as \(\mathbf{x}\) and \(\mathcal{X}\) respectively.
+</p>
+<ol>
+<li><p>Select a utility function \(u(\cdot)\) according to your risk appetite.
+</p>
+</li>
+<li><p>Define a (random) payoff function \(f(\mathbf{x}, \mathbf{\tilde{z}})\) (e.g., \(\mathbf{x}^T \mathbf{\tilde{z}}\)). We assume a positive value is preferred. 
+</p>
+</li>
+<li><p>Obtain the value of \(\rho^\ast\) by solving the optimization problem defined on the right<br />
+\(\rho^\ast := \inf \{k &gt; 0 &nbsp;:&nbsp; \mathbb{E}[u(-f(\mathbf{x}, \mathbf{\tilde{z}}) / k)] \leq 1, \mathbf{x} \in \mathcal{X} \}\). We call this a utility-based CREM.
+</p>
+</li>
+<li><p>Plug \(\rho^\ast\) and \(u\) into the inequality, \(\mathbb{P}(-f(\mathbf{x}, \mathbf{\tilde{z}}) &gt; \phi) \leq 1 / u(\phi / \rho^\ast)\),
+which holds for all \(\phi &gt; 0\). Voila! This is the probability bound that holds at all loss levels (i.e., how unfavorable an outcome is) and can be thought of as an infinite list of chance-constraints! 
+</p>
+</li>
+</ol>
+<p>To have a concrete idea of how reliable your optimal solution is, you can tabulate the results or plot \(1 / u(\phi / \rho^\ast)\) against \(\phi\) (see the GIF below). Consider changing \(u\) (or even \(f\) and \(\mathcal{X}\)) if you are not so happy with the results.
+</p>
+<p>The graph below gives an intuitive interpretation of utility-based CREMs. The vertical axis represents the probability levels, whereas the horizontal axis indicates the loss levels. Here, we define \(u(x) = \exp(x)\). The CDF of a loss is plotted in a solid red curve.
+</p>
+<ul>
+<li><p>If \(k\) is &ldquo;too big&rdquo; or &ldquo;too small&rdquo;, the probability bound (i.e., the dotted black curve) is too loose or it simply fails to hold.
+</p>
+</li>
+<li><p>So we need to find a &ldquo;just right&rdquo; value for \(k\) so that the black curve is &ldquo;just above&rdquo; the red one, or more precisely, 
+</p>
+<ul>
+<li><p>it is the lowest among the same family of dotted black curves and 
+</p>
+</li>
+<li><p>is above the red line.
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<p><img src="./envelope.gif"></img>
+</p>
+<p>The full paper is available <a href="https://doi.org/10.1287/ijoc.2021.1145" target=&ldquo;blank&rdquo;>here</a> and the accepted manuscript can be freely viewed <a href="http://hdl.handle.net/10397/92707" target=&ldquo;blank&rdquo;>here</a>.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-11-08 01:43:27 EST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2022-11-27 11:41:55 EST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

@@ -1,5 +1,1 @@
-./jemdoc index
-./jemdoc publications
-./jemdoc teaching
-./jemdoc research 
-./jemdoc activities
+./jemdoc -c mysite.conf *.jemdoc
