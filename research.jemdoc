@@ -61,6 +61,25 @@ The graph below gives an intuitive interpretation of utility-based CREMs. The ve
 	-- it is the lowest among the same family of dotted black curves and 
 	-- is above the red line.
 
-{{<img src="./envelope.gif"></img>}}
+~~~
+{}{img_left}{./envelope.gif}{alt text}{1022}{663}{./envelope.gif}
+~~~
 
 The full paper is available [https://doi.org/10.1287/ijoc.2021.1145 here] and the accepted manuscript can be freely viewed [http://hdl.handle.net/10397/92707 here].
+
+\n\n
+
+{{<a id="catchup"></a>}}
+*Utilizing Real-Time Travel Information, Mobile Applications and Wearable Devices for Smart Public Transportation*\n(Undergraduate Project)
+
+This study considers an embarrassing situation faced by many commuters, especially those in Hong Kong. Suppose a bus is approaching your nearest stop but you are still on the way. The headway is so large that you must not miss the bus. What's worse, alternative routings are highly undesirable (think of any area with little to no public transit in your region to make sense of this).
+
+~~~
+To run, or not to run, that is the question.
+~~~
+
+Thanks to wearable devices, always-on connectivity, and open data, we can design a system (pictured below) to tell a commuter whether it is better to give up and to find an alternative route. Though the design and the algorithm are simplistic (and naive), they can be easily extended by considering optimal stopping problems.
+
+~~~
+{}{img_left}{./catchup.jpg}{alt text}{1022}{592}{./catchup.jpg}
+~~~
