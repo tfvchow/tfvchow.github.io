@@ -1,0 +1,15 @@
+# jemdoc: menu{MENU}{link.html}, nofooter
+== Research Group
+
+=== Current Members
+
+==== Visitors
+
+~~~
+{}{img_left}{./picture/wangyixin.png}{alt text}{130}{147}{./picture/wangyixin.png}
+[https://yixinwong1998.github.io/ Yixin Wang]\n
+MSc Student at [http://cm.szu.edu.cn/ College of Management], [https://en.szu.edu.cn/ Shenzhen University] (SZU) \n
+Current project: Application of deep reinforcement learning to inventory problems
+~~~
+
+#=== Former Members
