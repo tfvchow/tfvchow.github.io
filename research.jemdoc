@@ -18,7 +18,7 @@
 Unlike buses and ferries, rail transport is less flexible when there are obstructions. Lai & Leung (2018) have proposed various mathematical models which help mitigate unfavorable events occurred throughout the operation by revising the schedules in real-time. The goal of this study is to extend their framework for more realistic simulations.
 
 ~~~
-{}{img_left}{./derail.jpeg}{alt text}{221}{250}{./derail.jpeg}
+{}{img_left}{./derail.jpeg}{alt text}{221}{250}{}
 *Objectives:*
 - Extend the simulation framework in Lai & Leung (2018) by including network disruptions via a stochastic process.
 - Devise a scheme for calibrating the simulation parameters with the empirical data which have been affected by bunching.
@@ -62,7 +62,7 @@ The graph below gives an intuitive interpretation of utility-based CREMs. The ve
 	-- is above the red line.
 
 ~~~
-{}{img_left}{./envelope.gif}{alt text}{750}{486}{./envelope.gif}
+{}{img_left}{./envelope.gif}{alt text}{750}{486}{}
 ~~~
 
 The full paper is available [https://doi.org/10.1287/ijoc.2021.1145 here] and the accepted manuscript can be freely viewed [http://hdl.handle.net/10397/92707 here].
@@ -81,5 +81,5 @@ To run, or not to run, that is the question.
 Thanks to wearable devices, always-on connectivity, and open data, we can design a system (pictured below) to tell a commuter when it is better to give up and to find an alternative route. Though the design and the algorithm are simplistic (and naive), they can be easily extended by considering optimal stopping problems.
 
 ~~~
-{}{img_left}{./catchup.jpg}{alt text}{750}{461}{./catchup.jpg}
+{}{img_left}{./catchup.jpg}{alt text}{750}{461}{}
 ~~~
