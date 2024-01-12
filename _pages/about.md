@@ -28,7 +28,7 @@ He is interested in the development and applications of distributionally robust 
 
 > **I am looking for two part-time RAs!**
 > 
-> Are you interested in expanding the frontiers of operations management and machine learning by putting them together? Are you a fan of Python or willing to learn it if you haven't fallen in love with it yet? If yes, you are the one I am looking for! To apply, please click this [link](https://jobs.polyu.edu.hk/job_detail.php?job=240111013). Consideration of applications will commence on 18 January 2024 until the position(s) is/are filled.
+> Are you interested in pushing back the frontiers of operations management and machine learning by putting them together? Are you a fan of Python or willing to learn it if you haven't fallen in love with it yet? If yes, you are the one I am looking for! To apply, please click this [link](https://jobs.polyu.edu.hk/job_detail.php?job=240111013). Consideration of applications will commence on 18 January 2024 until the position(s) is/are filled.
 
 
 
