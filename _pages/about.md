@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   <a href='https://www.polyu.edu.hk/lms'>Department of Logistics and Maritime Studies</a>
