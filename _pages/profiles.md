@@ -1,8 +1,8 @@
-<!-- --- -->
+---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /team/
+title: Team
+description: People whom I have the privilege to work with and learn from
 nav: true
 nav_order: 7
 
