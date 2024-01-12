@@ -21,4 +21,10 @@ profiles:
     image_circular: false # crops the image to make it circular
     # more_info: >
     #   <p>555 your office number</p>
+  - align: right
+    image: yuyang.jpeg
+    content: about_ariel.md
+    image_circular: false # crops the image to make it circular
+    # more_info: >
+    #   <p>555 your office number</p>
 ---
