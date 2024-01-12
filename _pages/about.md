@@ -15,11 +15,13 @@ profile:
     <p>Room CD401e</p>
     <p>CMA Building, PolyU</p>
     <p>Hung Hom, Hong Kong</p>
+    <p></p>
+    <p>tfvchow [at] gmail [dot] com</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 Vincent Chow is a research assistant professor at the Department of Logistics and Maritime Studies of PolyU. He received his PhD and MPhil in Systems Engineering and Engineering Management and BSc in Statistics from [the Chinese University of Hong Kong](https://www.cuhk.edu.hk) (CUHK) in 2021, 2018, and 2016, respectively. Prior to joining PolyU, he was a postdoctoral fellow at CUHK.
