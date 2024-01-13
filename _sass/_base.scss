@@ -612,9 +612,10 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
+  // Changing the color of the dividing line and text
   h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global--color);
+    border-bottom: 1px solid var(--global-text-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
