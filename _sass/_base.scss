@@ -645,9 +645,10 @@ footer.sticky-bottom {
     }
   }
 
+  // Changing the color of the dividing line and publication year text
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-color);
+    border-top: 1px solid var(--global-text-color);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
