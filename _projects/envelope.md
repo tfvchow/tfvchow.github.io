@@ -27,7 +27,7 @@ To have a concrete idea of how reliable your optimal solution is, you can tabula
     <div class="col-sm-3 mt-md-0">
     </div>
     <div class="col-sm-6 mt-md-0">
-        {% include figure.html path="assets/img/envelope.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/envelope.gif" title="Plots of enveloping bounds" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3 mt-md-0">
     </div>
